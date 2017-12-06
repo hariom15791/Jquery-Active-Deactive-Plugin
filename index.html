@@ -2,48 +2,76 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Jquery Multiple Select</title>
-<link href="style.css" type="text/css" rel="stylesheet" />
+<title>Jquery Active And Deactive Plugin</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript" ></script>
-<script src="jquery-multiple-select.js" type="text/javascript" ></script>
-
+<script src="js/active-and-deactive.js" type="text/javascript" ></script>
 </head>
 
 <body>
-<!--// Main Div -->
-<div class="main-div">
-<!---// Multiple Select -->
-<div class="jquery-multiple-select">
-   <ul>
-      <li>Type 1</li>
-      <li>Type 2</li>
-      <li>Type 3</li>
-      <li>Type 4</li>
-      <li>Type 5</li>
-      <li>Type 6</li>
-      <li>Type 7</li>
-   </ul>
-</div>
-<!--// Jquery Multiple Select Result -->
-<div class="custom-result-section"></div>
-
-</div>
-<!---// Multiple Select END -->
-
-
-
-
-<!---// Jquery Multiple Select Result End --->
+  <div class="custom-container">
+    <h1 class="main-heading">Jquery Active and Deactive Plugin </h1>
+    <div class="custom-container-inner">
+   <!---// About Us Section --->
+    <div class="about-section">
+      <h1>About Plugin</h1>
+      <p>This is Very Simple Plugin only for 'Active And Deactive'.When you hover any item That Means user want a focus on it and disable other.This type plugin use in many Site.This plugin is More 'User Friendly and Coder Friendly'.I am using very simple code so that any 'Developer Extend Plugin According to need'.This is more 'Coder Friendly' you can add class ,Item , Container Class and Iteam Class.</p>
+    </div>
+    <!---// About Us Section EDN --->
+    <!---// About Us Section --->
+    <div class="how-can">
+      <h1>How can I use it</h1>
+      <p>Very Simple to use this plugin only follow below Steps</p>
+      <p><span>Step 1</span> Add plugin library  file in your Project</p>
+      <code>  js/active-and-deactive.js </code>
+      <div class="clearfix"></div>
+      <p><span>Step 2</span> Use Bellow code with 'your Class'</p>
+      <code>
+          $('.active-deactive-section').JqueryActiveAeactive({
+        
+        ListItem:[['Item-1','Item-1-class'],['Item-2','Item-2-class'],['Item-3','Item-3-class'],['Item-4','Item-4-class'],['Item-5','Item-5-class'],['Item-6','Item-6-class'],['Item-7','Item-8-class'],['Item-9','Item-9-class'],['Item-10','Item-10-class'],['Item-11','Item-11-class'],['Item-12','Item-12-class'],['Item-13','Item-13-class'],['Item-14','Item-14-class'],['Item-15','Item-15-class'],['Item-16','Item-17-class'],['Item-18','Item-18-class'],['Item-19','Item-19-class'],['Item-20','Item-20-class']] /// Here Give Iteam and His class name
+        ,AddClassOnContainer:"custom-new-hello" // Here Give Container Class on ul
+        
+        });
+      </code>
+      <div class="clearfix"></div>
+      <p><span>Step 3</span> End</p>
+      <div class="clearfix"></div>
+    </div>
+    <!---// About Us Section EDN --->
+    <!---// About Us Section --->
+    <div class="live-example">
+      <h1>Live Example</h1>
+       <div class="active-deactive-section"></div>
+    </div>
+    <!---// About Us Section EDN --->
+    <!---// About Us Section --->
+    <div class="why-i-will">
+      <h1>Why I will use this plugin</h1>
+      <p>This plugin is More 'User Friendly and Coder Friendly'.I am using very simple code so that any 'Developer Extend Plugin According to need'.This is more 'Coder Friendly' you can add class ,Item , Container Class and Iteam Class.</p>
+    </div>
+    <!---// About Us Section EDN --->
+    <!---// About Us Section --->
+    <div class="about-section">
+      <h1>About Author</h1>
+      <p>Author of this plugin is <a href="https://github.com/hariom15791/" target="_blank">'Hariom Srivastava'</a>.I have '6 Years Experience in UI Development'</p>
+      <h2>My Other Plugin</h2>
+      <ul>
+        <li><a href="https://hariom15791.github.io/jquery-multiple-select-plugin/" target="_blank">Jquery Multiple Select Plugin</a></li>
+      </ul>
+    </div>
+    <!---// About Us Section EDN --->
+  
+   
+    </div> 
+  </div> 
 </body>
 <script>
-// Define Class name where you want to select list , its must be ul and li
-$('.jquery-multiple-select li').JqueryMultipleSelect({
-	ResultBackgroundColor:'#5fcf80',
-	ResultClass:'custom-result-section', // Where you want to show result
-	AddExtraClassinResult:'custom-result-list', // Add Class in Result Div
-	AddExtraClassinSelectList:'custom-select-list',// All Class on div that contain select li
-	AddClassOnDeleteIcon:'custom-delete-icon', // Class on Result File cancel button
+$('.active-deactive-section').JqueryActiveAeactive({
+	
+	ListItem:[['Item-1','Item-1-class'],['Item-2','Item-2-class'],['Item-3','Item-3-class'],['Item-4','Item-4-class'],['Item-5','Item-5-class'],['Item-6','Item-6-class'],['Item-7','Item-8-class'],['Item-9','Item-9-class'],['Item-10','Item-10-class'],['Item-11','Item-11-class'],['Item-12','Item-12-class'],['Item-13','Item-13-class'],['Item-14','Item-14-class'],['Item-15','Item-15-class'],['Item-16','Item-17-class'],['Item-18','Item-18-class'],['Item-19','Item-19-class'],['Item-20','Item-20-class']] /// Here Give Iteam and His class name
+	,AddClassOnContainer:"custom-new-hello" // Here Give Container Class on ul
 	
 	});
 </script>
