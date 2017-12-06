@@ -1,16 +1,16 @@
-# jQuery Simple Multiple Select Li
+# Jquery Active and Deactive Plugin
 
 ## Demo
-[Demo File Upload](https://blueimp.github.io/jquery-multiple-select-plugin/)
+[Demo File Upload](https://hariom15791.github.io/Jquery-Active-Deactive-Plugin/)
 
 ## Description
-This is very simple 'Jquery Multiple Select Plugin'.You can select any list only on click and deselect it on again click on same list. when you click on any list its show seleted list content in your result 'Div' section, where you can cancel any result when you cancel any result than same value deselect in List.
+This is Very Simple Plugin only for 'Active And Deactive'.When you hover any item That Means user want a focus on it and disable other.This type plugin use in many Site.This plugin is More 'User Friendly and Coder Friendly'.I am using very simple code so that any 'Developer Extend Plugin According to need'.This is more 'Coder Friendly' you can add class ,Item , Container Class and Iteam Class.
 
 ## Author
 The Author of this plugin is 'Hariom Srivastava'.
 
 ## Features
-You can add Class in 'Main Select List','Result Section Div', and 'Cancel icon in result Div'.You can also change 'Background Image' of 'Result Section Div'.
+This plugin is More 'User Friendly and Coder Friendly'.I am using very simple code so that any 'Developer Extend Plugin According to need'.This is more 'Coder Friendly' you can add class ,Item , Container Class and Iteam Class.
 
 ### Mandatory requirements
 * [jQuery](https://jquery.com/) v. 1.6+
